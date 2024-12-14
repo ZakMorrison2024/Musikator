@@ -1,0 +1,68 @@
+[
+  {
+      "id": "mood",
+      "question": "How are you feeling?",
+      "choices": ["happy", "sad"]
+  },
+  {
+      "id": "genre",
+      "question": "What's your favorite genre?",
+      "choices": ["pop", "rock", "jazz", "classical", "electronic", "metal", "hip-hop", "blues", "reggae"]
+  },
+  {
+      "id": "energy",
+      "question": "What energy level are you looking for?",
+      "choices": ["high", "low", "medium"]
+  },
+  {
+      "id": "tempo",
+      "question": "What's your preferred tempo?",
+      "choices": ["fast", "slow", "medium"]
+  },
+  {
+      "id": "mood_inspiration",
+      "question": "What mood would you like to evoke?",
+      "choices": ["motivated", "relaxed", "nostalgic", "romantic", "empowered"]
+  },
+  {
+      "id": "instrumentation",
+      "question": "What type of instrumentation do you prefer?",
+      "choices": ["acoustic", "electric", "synth", "orchestra", "vocals", "instrumental"]
+  },
+  {
+      "id": "era",
+      "question": "Which era of music do you enjoy most?",
+      "choices": ["70s", "80s", "90s", "2000s", "2010s", "2020s"]
+  },
+  {
+      "id": "vocal_style",
+      "question": "What type of vocals do you prefer?",
+      "choices": ["male", "female", "duet", "chorus", "instrumental"]
+  },
+  {
+      "id": "theme",
+      "question": "What theme resonates with you?",
+      "choices": ["love", "adventure", "loneliness", "hope", "rebellion"]
+  },
+  {
+      "id": "mood_boost",
+      "question": "Do you want a song that will uplift your mood?",
+      "choices": ["yes", "no"]
+  },
+  {
+      "id": "song_length",
+      "question": "How long do you want the song to be?",
+      "choices": ["short", "medium", "long"]
+  },
+  {
+      "id": "danceability",
+      "question": "Do you want a song that's danceable?",
+      "choices": ["yes", "no"]
+  },
+  {
+      "id": "vibe",
+      "question": "What's the vibe you're looking for?",
+      "choices": ["chill", "energetic", "romantic", "intense", "dreamy"]
+  }
+  
+]
