@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Musikator</title>
 </head>
 <body>
@@ -25,14 +25,20 @@
         </form>
     {% endif %}
 
-    <!-- Show suggestions -->
-    {% if suggestions %}
+    <!-- Show the best song suggestion -->
+    {% if best_song %}
         <h2>Suggested Music:</h2>
-        <ul>
-            {% for suggestion in suggestions %}
-                <li>{{ suggestion }}</li>
-            {% endfor %}
-        </ul>
+        <p><strong>Song Title:</strong> {{ best_song['title'] }}</p>
+        <p><strong>Genre:</strong> {{ best_song['genre'] }}</p>
+        <p><strong>Mood:</strong> {{ best_song['mood'] }}</p>
+        <p><strong>Energy:</strong> {{ best_song['energy'] }}</p>
+    {% else %}
+        <h2>Answer questions to find a match.</h2>
     {% endif %}
+<br>
+<br>
+<a href ="/">
+    <input type="button" url="/" value="reset" width="200px" height ="50px">
+</a>
 </body>
 </html>
