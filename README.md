@@ -21,9 +21,9 @@ To get started with **Musikator**, you'll need to have the following installed:
 
 ### Installation
 
-pip install flask
-python musikator.py
-open browser to localhost:5000
+- pip install flask
+- python musikator.py
+- open browser to localhost:5000
 
 # Enjoy 
 Enjoy!! (no hidden costs or keys)
